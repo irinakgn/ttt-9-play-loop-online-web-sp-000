@@ -9,6 +9,6 @@ display_board(board)
 
 
 def play(board)
-  board 
+  ["X", "X", "X", "X", "X", "X", "X", "X", "X"]
 end
 # Make sure to execute #play below

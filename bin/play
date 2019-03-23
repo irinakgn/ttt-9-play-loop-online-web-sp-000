@@ -8,7 +8,7 @@ puts "Welcome to Tic Tac Toe!"
 display_board(board)
 
 
-def play(board)
+def play()
   x = 0
 
   while x < 9

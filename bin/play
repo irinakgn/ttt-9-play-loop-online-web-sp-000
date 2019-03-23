@@ -7,6 +7,10 @@ display_board(board)
 
 
 def play(board)
- puts board
+  x = 0
+
+while x < 10
+
+end
 end
 # Make sure to execute #play below

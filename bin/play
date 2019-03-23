@@ -15,6 +15,6 @@ while x < 9
   board[x] = 'X'
   x += 1
 end
-board
+  board
 end
 # Make sure to execute #play below

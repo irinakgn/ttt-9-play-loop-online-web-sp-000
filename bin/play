@@ -9,6 +9,13 @@ display_board(board)
 
 
 def play(board)
-  ["X", "X", "X", "X", "X", "X", "X", "X", "X"]
+  x = 0
+
+while x < 10
+  if x.odd?
+    puts x
+  end
+  x += 1
+end
 end
 # Make sure to execute #play below

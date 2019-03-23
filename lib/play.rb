@@ -37,5 +37,11 @@ end
 
 # Define your play method below
 def play(board)
+  x = 0
+
+  while x < 9
+    board[x] = 'X'
+    x += 1
+  end
   puts board
 end

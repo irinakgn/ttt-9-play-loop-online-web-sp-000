@@ -8,13 +8,5 @@ puts "Welcome to Tic Tac Toe!"
 display_board(board)
 
 
-def play(board)
-  x = 0
 
-  while x < 9
-    board[x] = 'X'
-    x += 1
-  end
-  puts board
-end
 # Make sure to execute #play below

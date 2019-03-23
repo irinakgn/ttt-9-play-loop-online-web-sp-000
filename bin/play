@@ -9,8 +9,8 @@ display_board(board)
 def play(board)
   x = 0
 
-while x < 10
-
-end
+  while x < 10
+    play(board)
+  end
 end
 # Make sure to execute #play below
